@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>5. Audio 3D</title>
+    <script type="module" src="./src/app.js"></script>
+    <link rel="stylesheet" href="./styles/main.css">
+</head>
+<body>
+    
+    <div id="aiudaBtn">?</div>
+    <div id="aiuda">
+        ¡Bienvenido al Reproductor de música!
+        <br>
+        <br>
+        - Para adelantar pausar la canción, presiona 'P'
+        <br>
+        <br>
+        - Para seguir escuchando, presiona la tecla espacio
+        <br>
+        <br>
+        - Para adelantar la canción, presiona 'L'
+        <br>
+        <br>
+        - Para adelantar la canción, presiona 'J'
+        <br>
+        <br>
+        Los controles del Player son ASDW
+        </div>
+
+    <script >
+         //import { main } from './src/app.js';
+
+         // GUI
+        const aiudaBtn = document.body.querySelector("#aiudaBtn");
+        const aiuda = document.body.querySelector("#aiuda");
+        aiudaBtn.onmouseover = () => {
+            aiuda.style.height = "30vw";
+            aiuda.style.padding = "15px";
+            aiuda.style.opacity = "1";
+            
+        }
+        aiudaBtn.onmouseleave = () => {
+            aiuda.style.height = "0";
+            aiuda.style.padding = "0";
+            aiuda.style.opacity = "0";
+        }
+
+    </script>
+</body>
+</html>

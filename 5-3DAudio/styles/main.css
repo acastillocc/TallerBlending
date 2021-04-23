@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+}
+
+#aiudaBtn {
+    position: absolute;
+    font-size: 150%;
+    font-weight: bold;
+    color: white;
+    padding: 20px;
+    width: 76px;
+    text-align: center;
+    border: 4px solid white;
+    border-radius: 50%;
+    margin: 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+#aiudaBtn:hover {
+    background: #ecf0f1;
+    color: #34495e;
+}
+
+#aiuda {
+    position: absolute;
+    background: rgba(255,255,255,0.8);
+    width: 50vw;
+    height: 0vh; /*30vw*/
+    border-radius: 15px;
+    margin: 20vh 25vw;
+    font-size: 110%;
+    opacity: 0;
+    transition: all 1s ease;
+}

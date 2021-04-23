@@ -1,0 +1,30 @@
+{
+  "name": "cg-2021-1",
+  "version": "1.0.0",
+  "description": "\"Repo de la clase CG-2021-1\"",
+  "main": "index.js",
+  "dependencies": {
+    "dat.gui": "^0.7.7",
+    "three": "^0.125.2"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "pabhoz",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pabhoz/CG-2021-1.git"
+  },
+  "keywords": [
+    "cg",
+    "threejs",
+    "ar",
+    "vr"
+  ],
+  "bugs": {
+    "url": "https://github.com/pabhoz/CG-2021-1/issues"
+  },
+  "homepage": "https://github.com/pabhoz/CG-2021-1#readme"
+}
