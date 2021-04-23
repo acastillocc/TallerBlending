@@ -64,35 +64,7 @@ export default class Sound {
     retroceder(){
         console.log("RETRASANDO");
         this.audio.currentTime -= 5.0;
-    }
-    
-    nextSong(){
-    this.audio.addEventListener('ended',function(){
-         this.audio(audios[2]);   //play next song
-    });
-
-    //playlist audios
-
-    const audios = [{
-        name: "Levitating",
-        artist: "Dua Lipa",
-        path: "pop.mp3"
-      },
-      {
-        name: "7 Rings",
-        artist: "Ariana Grande",
-        path: "pop2.mp3"
-      },
-      {
-        name: "That's What I Like",
-        artist: "Bruno Mars",
-        path: "pop3.mp3",
-      }
-
-    ];
-    }
-
-    
+    } 
 
     update(element) {
         const distance = this.position.distanceTo(element.position);
